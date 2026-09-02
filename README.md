@@ -55,3 +55,9 @@ Skill packages are untrusted data. Inspect their contents before use, and do not
   year    = {2026}
 }
 ```
+
+## License
+
+Copyright © 2026 Yufei Sun, Yudong Li, and Yiming Cheng. The authors' original project documentation and figures are licensed under the [Creative Commons Attribution 4.0 International License](LICENSE).
+
+For SkillCorpus, CC BY 4.0 applies to the authors' original selection, organization, metadata, and accompanying documentation. Individual skill-package contents are not relicensed and remain subject to their original source terms and licenses.
