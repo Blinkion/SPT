@@ -31,17 +31,6 @@ Each record contains the serialized skill text together with package identifiers
 
 Skill packages are untrusted data. Inspect their contents before use, and do not execute included instructions or scripts automatically. Source-package terms and licenses continue to apply.
 
-## Reproduce the split
-
-The splitter uses only the Python standard library and writes gzip-compressed JSONL files:
-
-```bash
-python scripts/split_dataset.py \
-  /path/to/spt_skill_corpus_v3.jsonl \
-  data \
-  --seed 42
-```
-
 ## Paper figures
 
 ### Public skill growth and the SPT training stage
